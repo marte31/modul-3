@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: grey;
+    height: 80px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+.navbarHeader button.navbar-toggle, .navbarHeader .icon-bar {
+    border: 1px solid black;
+}
+.Brand {
+    font-size: 30px;
+    font-weight: 900;
+}
+.Menu {
+    text-align: center;
+    margin: 40px;
+}
+.listing {
+    margin: 20px 40px;
+}
+.chicken, .beef, .sushi {
+    text-align: center;
+    padding-top: 5px;
+}
+p {
+    clear: both;
+    padding: 10px;
+}
+.no1, .no2, .no3 {
+    border: 2px solid black;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+.dropdown {
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+.backToTop {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .bigBox {
+      display:block;
+      margin: 0% 4%;
+      justify-content: space-between;
+     }
+  }
+@media (min-width:768px) {
+    #nav-list {
+        display: none;
+    }
+}
